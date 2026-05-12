@@ -1,0 +1,50 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 30px;
+    }
+
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .text-input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .my-button {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+    }
+
+    .my-image,
+    .photo {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .my-link {
+      color: blue;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .my-list {
+      padding-left: 20px;
+    }

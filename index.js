@@ -1,7 +1,9 @@
-    const input = document.querySelector(".text-input");
-    const button = document.querySelector(".my-button");
+const input = document.querySelector(".text-input");
+const button = document.querySelector(".my-button");
 
-    button.textContent = input.value;
+button.onclick = function () {
+  button.textContent = input.value;
+};
 
     const image = document.querySelector(".my-image");
 
